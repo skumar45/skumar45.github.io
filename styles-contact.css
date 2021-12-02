@@ -60,16 +60,17 @@ html, body {
   width: 100%;
   padding: 0;
   margin: 0;
-  background: url(images/Bricks_bg.jpg)
+  background: url(images/background.jpg)
   		center center fixed no-repeat;
 		  background-size: cover;
+    font-family: serif
 		
 
 	
 }
 
 .center {
-    width: 800px;
+    width: 80%; /* added this to make div responsive */
 	padding: 2%;
     margin: 100px auto;
  	background: rgba(0, 150, 178, .75); /*this uses opacity of 75% for the background color*/
@@ -104,6 +105,7 @@ p {
 	/* FONT-FAMILY GOES HERE CHOOSE FROM ADOBE FONTS OR GOOGLE FONTS */		;
 	font-size: 1.2em;
     line-height: 1.6;
+    letter-spacing: 5px
     color: #fff;
 }
     
