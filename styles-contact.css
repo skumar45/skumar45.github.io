@@ -24,8 +24,8 @@ time, mark, audio, video {
 	padding: 0;
 	border: 0;
 	font-size: 100%;
-	font: inherit;
 	vertical-align: baseline;
+    font: mr-eaves-sans;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -63,7 +63,7 @@ html, body {
   background: url(images/background.jpg)
   		center center fixed no-repeat;
 		  background-size: cover;
-    font-family: serif
+    font-family:"mr-eaves-sans", serif;
 		
 
 	
@@ -87,35 +87,35 @@ html, body {
 
 h1 {
 	/* FONT-FAMILY GOES HERE CHOOSE FROM ADOBE FONTS OR GOOGLE FONTS */
+    font-family: mr-eaves-sans, sans-serif;
+    font-weight: 100;
+    font-style: normal;
 	font-size: 2em;
     margin: 0px auto 10px auto;
-    color: #fff;
+    color: #000;
 }
 
 h2 {
 	 /* FONT-FAMILY GOES HERE CHOOSE FROM ADOBE FONTS OR GOOGLE FONTS */
+    font-family: mr-eaves-sans, sans-serif;
+    font-weight: 100;
+    font-style: normal;
+	font-size: 2em;
 	font-size: 1.5em;
     line-height: 1.4;
-    color: #fff;
+    color: #000;
     padding: 0px 0px;
     margin: 0px auto 25px auto;
 }
 
-p {
-	/* FONT-FAMILY GOES HERE CHOOSE FROM ADOBE FONTS OR GOOGLE FONTS */		;
-	font-size: 1.2em;
-    line-height: 1.6;
-    letter-spacing: 5px
-    color: #fff;
-}
+p 
     
     
 nav{
-	font-family: 'Courier New', Courier, monospace;
+	font-family: mr-eaves-sans;
 	font-size: medium;
 	width: auto;
 	margin: auto;
-	border: dashed turquoise;
 	border-width: 3px 0;
 	text-align: center;
 	margin-top: 2em;
@@ -131,12 +131,12 @@ nav a{
 }
 
 a{
-	color: aqua;
+	color:beige;
 text-decoration:none;
 font-weight:bold;
 }
 
 a:hover {
-	color:black;
-	background: brown;
+	color:floralwhite;
+	background: white;
 }
