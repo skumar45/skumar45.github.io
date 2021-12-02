@@ -63,7 +63,7 @@ html, body {
   background: url(images/background.jpg)
   		center center fixed no-repeat;
 		  background-size: cover;
-    font-family:"mr-eaves-sans", serif;
+    font-family: serif
 		
 
 	
@@ -87,17 +87,14 @@ html, body {
 
 h1 {
 	/* FONT-FAMILY GOES HERE CHOOSE FROM ADOBE FONTS OR GOOGLE FONTS */
-    font-family: mr-eaves-sans, sans-serif;
+    font-family: mr-eaves-modern, sans-serif;
     font-weight: 100;
     font-style: normal;
-	font-size: 2em;
-    margin: 0px auto 10px auto;
-    color: #000;
 }
 
 h2 {
 	 /* FONT-FAMILY GOES HERE CHOOSE FROM ADOBE FONTS OR GOOGLE FONTS */
-    font-family: mr-eaves-sans, sans-serif;
+    font-family: mr-eaves-modern, sans-serif;
     font-weight: 100;
     font-style: normal;
 	font-size: 2em;
@@ -112,8 +109,9 @@ p
     
     
 nav{
-	font-family: mr-eaves-sans;
-	font-size: medium;
+	font-family: mr-eaves-modern, sans-serif;
+    font-weight: 100;
+    font-style: normal;
 	width: auto;
 	margin: auto;
 	border-width: 3px 0;
