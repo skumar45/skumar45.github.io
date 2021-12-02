@@ -73,26 +73,26 @@ html, body {
     width: 100%; /* added this to make div responsive */
 	padding: 2%;
     margin: 100px auto;
-	text-align: center;
 	background: rgba(83, 111, 117, 0.692); /*this uses opacity of 75% for the background color*/
-	
+	text-align: center;
 }
 
    
 #logo {
     margin-bottom: 16px;
 	text-align: center;
-}
-
-h1 {
+}h1 {
 	/* FONT-FAMILY GOES HERE CHOOSE FROM ADOBE FONTS OR GOOGLE FONTS */
     font-family: mr-eaves-modern, sans-serif;
     font-weight: 100;
     font-style: normal;
 	font-size: 5em;
 	color: rgb(219, 229, 235);
+	text-align:center;
 	
 }
+
+
 
 h2 {
 	 /* FONT-FAMILY GOES HERE CHOOSE FROM ADOBE FONTS OR GOOGLE FONTS */
@@ -104,6 +104,7 @@ h2 {
     color: rgb(219, 229, 235);
     padding: 0px 0px;
     margin: 0px auto 25px auto;
+	text-align: center;
 	
 }
 
@@ -119,26 +120,35 @@ nav{
 	border-width: 3px 0;
 	text-align: center;
 	margin-top: 2em;
+	text-align: center;
 	
 } 
 
 nav li{
 	display: inline-table;
 	
+	
 }
 
 nav a{
 	display: inline-table;
 	padding: 10px;
+	
 }
 
 a{
 	color:rgb(240, 249, 250);
 text-decoration:none;
 font-weight: lighter;
+font-family: mr-eaves-modern, sans-serif;
+    font-weight: 100;
+    font-style: normal;
+	font-size: larger;
+
 }
 
 a:hover {
 	color:floralwhite;
 	background: rgba(115, 209, 238, 0.658);
+	
 }
