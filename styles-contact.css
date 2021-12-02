@@ -70,18 +70,17 @@ html, body {
 }
 
 .center {
-    width: 80%; /* added this to make div responsive */
+    width: 100%; /* added this to make div responsive */
 	padding: 2%;
     margin: 100px auto;
- 	background: rgba(0, 150, 178, .75); /*this uses opacity of 75% for the background color*/
 	text-align: center;
-	border: 4px dashed white;
+	background: rgba(83, 111, 117, 0.692); /*this uses opacity of 75% for the background color*/
+	
 }
 
    
 #logo {
     margin-bottom: 16px;
-	border: 3px dashed red;
 	text-align: center;
 }
 
@@ -90,6 +89,9 @@ h1 {
     font-family: mr-eaves-modern, sans-serif;
     font-weight: 100;
     font-style: normal;
+	font-size: 5em;
+	color: rgb(219, 229, 235);
+	
 }
 
 h2 {
@@ -97,12 +99,12 @@ h2 {
     font-family: mr-eaves-modern, sans-serif;
     font-weight: 100;
     font-style: normal;
-	font-size: 2em;
-	font-size: 1.5em;
+	font-size: 3em;
     line-height: 1.4;
-    color: #000;
+    color: rgb(219, 229, 235);
     padding: 0px 0px;
     margin: 0px auto 25px auto;
+	
 }
 
 p 
@@ -117,24 +119,26 @@ nav{
 	border-width: 3px 0;
 	text-align: center;
 	margin-top: 2em;
+	
 } 
 
 nav li{
-	display:inline
+	display: inline-table;
+	
 }
 
 nav a{
-	display: inline-block;
+	display: inline-table;
 	padding: 10px;
 }
 
 a{
-	color:beige;
+	color:rgb(240, 249, 250);
 text-decoration:none;
-font-weight:bold;
+font-weight: lighter;
 }
 
 a:hover {
 	color:floralwhite;
-	background: white;
+	background: rgba(115, 209, 238, 0.658);
 }
