@@ -73,7 +73,7 @@ html, body {
     width: 100%; /* added this to make div responsive */
 	padding: 2%;
     margin: 100px auto;
-	background: rgba(83, 111, 117, 0.692); /*this uses opacity of 75% for the background color*/
+	background: rgba(86, 114, 121, 0.63); /*this uses opacity of 75% for the background color*/
 	text-align: center;
 }
 
@@ -81,6 +81,7 @@ html, body {
 #logo {
     margin-bottom: 16px;
 	text-align: center;
+	opacity: calc(65%);
 }h1 {
 	/* FONT-FAMILY GOES HERE CHOOSE FROM ADOBE FONTS OR GOOGLE FONTS */
     font-family: mr-eaves-modern, sans-serif;
