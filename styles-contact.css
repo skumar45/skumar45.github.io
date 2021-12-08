@@ -55,12 +55,13 @@ table {
 
 /* ---------- Hello, my name is Saiyushi Kumar and this is the beginning of my CONTACT PAGE CSS for 201 Digital Publishing November 2021 ------------ */
 
+
 html, body {
   height: 100%;
-  width: 100%;
+  width: 99%;
   padding: 0;
   margin: 0;
-  background: url(images/background.jpg)
+  background: url(images/background7.jpg)
   		center center fixed no-repeat;
 		  background-size: cover;
     font-family: serif
@@ -70,19 +71,20 @@ html, body {
 }
 
 .center {
-    width: 100%; /* added this to make div responsive */
+    width: 99%; /* added this to make div responsive */
 	padding: 2%;
-    margin: 100px auto;
-	background: rgba(86, 114, 121, 0.63); /*this uses opacity of 75% for the background color*/
+    margin: 40px auto;
+	background: rgba(31, 32, 32, 0.80); /*this uses opacity of 75% for the background color*/
 	text-align: center;
 }
 
    
 #logo {
-    margin-bottom: 16px;
+    margin-bottom: 35px;
 	text-align: center;
-	opacity: calc(65%);
-}h1 {
+	opacity: calc(70%);
+}
+h1 {
 	/* FONT-FAMILY GOES HERE CHOOSE FROM ADOBE FONTS OR GOOGLE FONTS */
     font-family: mr-eaves-modern, sans-serif;
     font-weight: 100;
@@ -118,15 +120,17 @@ nav{
     font-style: normal;
 	width: auto;
 	margin: auto;
-	border-width: 3px 0;
+	border-width: 1px 0;
 	text-align: center;
-	margin-top: 2em;
+	margin-top: 1em;
 	text-align: center;
+	font-size: 1.4em;
 	
 } 
 
 nav li{
 	display: inline-table;
+	font-size: 1.4em;
 	
 	
 }
@@ -134,6 +138,7 @@ nav li{
 nav a{
 	display: inline-table;
 	padding: 10px;
+	font-size: 1.4em;
 	
 }
 
@@ -144,12 +149,36 @@ font-weight: lighter;
 font-family: mr-eaves-modern, sans-serif;
     font-weight: 100;
     font-style: normal;
-	font-size: larger;
+	font-size: 1.4em
 
 }
 
 a:hover {
 	color:floralwhite;
-	background: rgba(115, 209, 238, 0.658);
+	background: rgba(94, 83, 63, 0.658);
 	
+}
+
+th {
+	font-family: mr-eaves-modern, sans-serif;
+    font-weight: 100;
+    font-style: normal;
+	font-size: 4em;
+	color: rgb(219, 229, 235);
+	text-align:center;
+	margin: 25px auto; 
+	padding-left: 0pt;
+	padding-right: 60pt;
+}
+td{
+	font-family: mr-eaves-modern, sans-serif;
+    font-weight: 100;
+    font-style: normal;
+	font-size: 2em;
+    line-height: 1.4;
+    color: rgb(219, 229, 235);
+    padding-left: 0pt;
+	padding-right: 60pt;
+    margin: 25px auto 25px auto;
+	text-align: center;
 }
