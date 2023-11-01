@@ -7,6 +7,11 @@ img {
      display: block;
 }
 
+div.container {
+    max-width: 150em;
+    margin:auto;
+}
+
 h1 {
     font-family: Sutro, serif;
     font-weight: 900;
@@ -27,6 +32,7 @@ h2 {
     padding: 0em 1.2em 1em;
 }
 
+
 figcaption {
     font-family: poppins, sans-serif;
     font-weight: 400;
@@ -35,19 +41,43 @@ figcaption {
     padding: 0.75em 1.5em 1em;
 }
 
+main {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    
+
+}
+
+figure {
+    display:grid;
+    grid-template-columns: 80% 20%;
+}
+
+.ingredients {
+    margin: 2em 3em 0em;
+}
+
+.directions {
+    margin: 2em 2em 0em;
+    padding-right: 1em;
+}
+
+
 h3 {
     font-family: Sutro, serif;
     font-weight: 400;
     font-style: normal;
     color: rgba(255, 136, 0);
     font-size: 1.2em;
-    padding: 0.5em 1.2em 0.5em;
+    padding: 1em 0em 0.5em;
     text-transform: uppercase;
     letter-spacing: 0.1em;
+    border-top: 0.2em solid rgba(255, 136, 0);
+    margin-top: 0.5em;
 }
 
 ul {
-    margin: 0em 0.5em 1em;
+    margin: 0em -1em 1em;
     font-family: poppins, sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -60,7 +90,7 @@ li {
 }
 
 ol {
-    margin: 0em 0.5em 1em;
+    margin: 0em -1em 1em;
     font-family: poppins, sans-serif;
     font-weight: 400;
     font-style: normal;
