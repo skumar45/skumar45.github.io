@@ -73,11 +73,11 @@ h3 {
     text-transform: uppercase;
     letter-spacing: 0.1em;
     border-top: 0.2em solid rgba(255, 136, 0);
-    margin-top: 0.5em;
+    margin: 0.5em 0.75em 0em;
 }
 
 ul {
-    margin: 0em -1em 1em;
+    margin: 0em 0em 1em;
     font-family: poppins, sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -90,7 +90,7 @@ li {
 }
 
 ol {
-    margin: 0em -1em 1em;
+    margin: 0em 0em 1em;
     font-family: poppins, sans-serif;
     font-weight: 400;
     font-style: normal;
