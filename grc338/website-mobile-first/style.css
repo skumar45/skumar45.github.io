@@ -21,7 +21,7 @@ div.container {
 }
 
 main { 
-	padding: 1em 1em 1em;
+	padding: 1em 2em 3.5em;
 	}
 
 img {
@@ -46,12 +46,12 @@ h2, h3, h4 {
 
 h2 {
 	font-size: 2em;
-	margin: 1em 0.2em 0.5em;
+	margin: 1em 0em 0.5em;
 	}
 	
 h3 {
-	font-size: 1.2em;
-	margin: 0em 0.3em 0.5em;
+	font-size: 1.5em;
+	margin: 1em 0em 0.5em;
 }
 
 
@@ -69,22 +69,22 @@ ul li 	{
 }
 
 figure {
-	margin-bottom: 2em;
+	margin-bottom: 1em;
 }
 
 main.menu ul {
-		margin: 2.5em 0.5em;
+		margin: 1.5em 0em;
 }	
 
 main.menu ul li {
-		margin: 1em 0em 2em;
+		margin: 0.5em 0em 2em;
 		display: grid;
 		grid-template-columns: auto auto;
 		grid-template-rows: auto auto;
 }	
 
 p {
-	margin: 0em 0em 0.2em;
+	margin: 0em 0em 1em;
 	}
 	
 p.description {
@@ -97,7 +97,7 @@ p.price {
 	grid-column: 2/3;
 	color: red;
 	text-align: right;
-	margin: 0.2em;
+	margin: 0em 0.2em 0.5em;
 	}
 	
 nav ul li {
@@ -110,15 +110,15 @@ nav ul li {
 nav ul li a {
 	color: white;
 	background-color: rgb(5,46,237);
-	padding: .5em 0.2em 0.2em;
+	padding: .5em 0.5em 0.3em;
 	}
 	
 
 p.slogan {
-	font-size: 3em;
+	font-size: 4em;
 	font-family: sans-serif;
 	font-style: italic;
-	margin: 1em 0.25em 4.5em;
+	margin: 1em 0em 2.5em;
 	color: white;	
 	}
 	
@@ -139,4 +139,3 @@ footer {
 footer p {
 	margin: 0em;
 }
-
