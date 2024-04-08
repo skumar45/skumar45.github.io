@@ -47,16 +47,22 @@ section {
 	background: #d3d3d3;
 }
 
-figure {
-	margin-left: 0;
-	margin-right: 0;
+h2 {
+	padding-top: 0.5em;
 }
-
 
 h3 {
 	margin: 0;
 }
 
+p {
+	margin-top: 0;
+}
+
+figure {
+	margin-left: 0;
+	margin-right: 0;
+}
 
 a {
 	text-decoration: none;
@@ -72,11 +78,4 @@ footer {
 	padding-top: 1em;
 }
 
-h2 {
-	padding-top: 0.5em;
-}
-
-p {
-	margin-top: 0;
-}
 
