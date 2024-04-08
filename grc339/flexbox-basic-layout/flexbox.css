@@ -17,11 +17,9 @@ div.container{
 	display: flex;
 	flex-wrap: wrap;
 	max-width: 60em;
-	margin-top: 2em;
-	margin-bottom: 2em;
-	margin-left: 5em;
-	margin-right: 5em;
+	margin: 2em 5em 2em 5em;
 	justify-content: center;
+	padding: 1em;
 }
 
 header {
@@ -38,6 +36,8 @@ aside {
 
 footer {
 	flex: 1 0 100%;
+	border-top: 1px solid #888;
+	padding-top: 1em;
 }
 
 section {
@@ -52,11 +52,11 @@ h2 {
 }
 
 h3 {
-	margin: 0;
+	margin: 0em;
 }
 
 p {
-	margin-top: 0;
+	margin-top: 0em;
 }
 
 figure {
@@ -73,9 +73,6 @@ ol {
 	padding-left: 1em;
 }
 
-footer {
-	border-top: 1px solid #888;
-	padding-top: 1em;
-}
+
 
 
