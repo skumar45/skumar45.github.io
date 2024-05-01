@@ -93,7 +93,6 @@ nav ul li {
     list-style-type: none;
     padding-top: 0.4em;
     font-weight: bold;
-    
 }
 
 nav ul li a {
@@ -138,4 +137,20 @@ footer {
 footer p {
     color: rgb(255,255,255);
     padding: 1em;
+}
+
+@media screen and (min-width: 40em) {
+    nav ul li {
+        display: inline;
+        padding-right: 1em;
+    }
+    p {
+        padding: 0em 0.5em 2em 0;
+    }
+
+    section.main h2, section.secondary h2, section.tertiary h2 {
+        padding: 0.2em 0em 0em 0em;
+        margin-left: 0;
+        margin-right: 0;
+    }
 }
