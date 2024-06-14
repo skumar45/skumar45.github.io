@@ -1,0 +1,88 @@
+Overview
+The Spender project consists of two HTML pages and associated CSS files that form the foundation of a simple web application. The first page (index.html) serves as a landing page introducing the "Spender" service, while the second page (page3.html) allows users to request loan terms.
+
+File Structure
+Copy code
+Spender/
+├── index.html
+├── page3.html
+├── style.css
+├── style2.css
+├── images/
+│   ├── welcome-to0.svg
+│   ├── spender0.svg
+│   ├── s0.svg
+│   ├── transactions-made-easier0.svg
+index.html
+Description
+This is the main landing page for the Spender application. It introduces the service with a welcoming message and a call to action button for starting a free trial.
+
+Content
+Header Information
+
+Charset: UTF-8
+Viewport settings for responsiveness
+Link to style.css for styling
+Title: "Spender"
+Body Content
+
+A main container with the class mac-book-pro-16-3 for layout
+A background rectangle
+Various SVG images for branding and messaging (welcome-to, spender, s, transactions-made-easier)
+A button leading to the trial start page (page3.html)
+Key Elements
+Button: Styled with a background color, border radius, padding, and centered text.
+Images: Positioned absolutely to fit the design layout.
+page3.html
+Description
+This page allows users to request loan terms by filling out a form.
+
+Content
+Header Information
+
+Charset: UTF-8
+Viewport settings for responsiveness
+Link to style2.css for styling
+Title: "Spender"
+Body Content
+
+A main container with the class mac-book-pro-16-2 for layout
+Header text for loan request
+Form fields for entering loan details:
+Amount to borrow
+Time to repay the loan
+Additional notes
+Options to add an interest rate to the loan (Yes/No)
+A button to send the request
+Key Elements
+Form Fields: Text areas for user input with labels for guidance.
+Buttons: Styled similarly to those on the landing page with additional variations.
+CSS Files
+style.css
+
+Styles for index.html:
+
+Sets the layout, background, and positioning for the main container and elements.
+Styles the button with specific background color, padding, text alignment, and hover effects.
+style2.css
+
+Styles for page3.html:
+
+Similar to style.css but includes additional styling for form fields and specific buttons.
+Aligns form elements and text to maintain a consistent design.
+Usage
+
+Opening the Project
+
+To view the landing page, open index.html in a web browser.
+To access the loan request page, click on the "Start Free Trial" button on the landing page, which will navigate to page3.html.
+
+Customizing Styles
+
+Modify style.css for changes to the landing page styles.
+Modify style2.css for changes to the loan request page styles.
+Adding Content
+
+Add or replace SVG images in the images/ directory and update the src attribute in the HTML files accordingly.
+Conclusion
+The Spender project provides a simple, clean interface for introducing a service and requesting loan terms. The structure and styles can be easily customized to fit specific needs or branding guidelines.
