@@ -389,7 +389,7 @@ input:nth-of-type(8):checked ~ main figure:nth-of-type(8){
     }
 }
 
-@media screen and (prefers-color-scheme: dark) {
+/* @media screen and (prefers-color-scheme: dark) {
 
     h1 {  
         background-image: url("logo-alt.svg");  
@@ -465,4 +465,4 @@ input:nth-of-type(8):checked ~ main figure:nth-of-type(8){
     body {
         background-color: #2B2812;
     }
-}
+}*/
